@@ -1,7 +1,10 @@
 html {
   font-size: 16px;
 }
-
+ul {
+  list-style: None;
+  padding: 0;
+}
 footer {
   background-color: rgb(61, 9, 104);
 }
