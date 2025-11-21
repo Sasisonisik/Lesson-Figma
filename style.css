@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 24px;
 }
 ul {
   list-style: None;
@@ -62,4 +62,29 @@ a {
   font-family: poppins;
   font-weight: medium;
   font-size: 1.8rem;
+}
+
+span {
+  color: #00cbb8;
+}
+.p_1 {
+  height: 4.83rem;
+  width: 27.3rem;
+  font-size: 1.5rem;
+  margin-left: 10.25rem;
+  margin-right: 42.45rem;
+}
+.p_2 {
+  width: 30.2rem;
+  height: 7.2rem;
+  font-size: 1rem;
+  margin-left: 10.25rem;
+  margin-right: 39.54rem;
+}
+
+.img17 {
+  width: 29.375rem;
+  height: 19.625rem;
+  margin-left: 43.45rem;
+  margin-right: 7.16rem;
 }
