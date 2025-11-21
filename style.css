@@ -5,55 +5,94 @@ ul {
   list-style: None;
   padding: 0;
 }
-footer {
-  background-color: rgb(61, 9, 104);
+.onec {
+  background-color: #49bbbd;
 }
-a {
-  color: aliceblue;
-  font-style: None;
+
+.divS {
+  text-align: center;
+  font-size: 30px;
 }
+.divS p {
+  font-size: 20px;
+}
+
+.lip {
+  display: flex;
+  gap: 4.37rem;
+  justify-content: center;
+  margin-top: 4.37rem;
+  font-size: 30px;
+}
+
+.fp,
+.sp,
+.tp,
+.fop,
+.fip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  font-size: 55px;
+  color: #329aba;
+}
+.softwere {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+.softwere li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  flex: 0 0 28.12rem;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 2.25rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(16, 32, 63, 0.08);
+}
+
+.Icontab,
+.Iconcal,
+.Iconus {
+  width: 4.16rem;
+  height: 4.16rem;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.softwere img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.softwere li h3 {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
 .softwere h2 {
   text-align: center;
 }
-.pesh {
-  text-align: center;
-  font-family: poppins;
-}
-.softwere h2 span {
-  color: #00cbb8;
-}
-
-.Icontab {
-  background-color: #5b72ee;
-  width: 4.16rem;
-  height: 4.16rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-.Iconcal {
-  background-color: #00cbb8;
-  width: 4.16rem;
-  height: 4.16rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-.Iconus {
-  background-color: #29b9e7;
-  width: 4.16rem;
-  height: 4.16rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
 .softwere li {
   width: 28.12rem;
 }
@@ -63,6 +102,12 @@ a {
   font-weight: medium;
   font-size: 1.8rem;
 }
+.span1 {
+  color: #2f327d;
+}
+.span2 {
+  color: #00cbb8;
+}
 .mine h2 {
   font-size: 1.83rem;
   width: 13.83rem;
@@ -71,10 +116,7 @@ a {
   margin-right: auto;
 }
 
-.mine h2 span {
-  color: #00cbb8;
-}
-.p_h2 {
+.mine .p_h2 {
   width: 45.5rem;
   height: 5.375rem;
   margin-left: auto;
@@ -89,12 +131,7 @@ a {
 .p_1 {
   font-size: 1.5rem;
 }
-.span1 {
-  color: #2f327d;
-}
-.span2 {
-  color: #00cbb8;
-}
+
 .p_2_d {
   width: 30.2rem;
   height: 7.2rem;
